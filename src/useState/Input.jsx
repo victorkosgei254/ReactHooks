@@ -4,8 +4,7 @@ export default function Input() {
   const [myname, setName] = useState("");
 
   const handleChange = (event) => {
-    console.log(event.target.value);
-    setName(event.target.value);
+    console.log(" My Name is " + myname);
   };
   return (
     <div>
@@ -16,9 +15,10 @@ export default function Input() {
         name="myname"
         id="myname"
         placeholder="Enter your name !!"
-        onChange={handleChange}
+        onChange={(e) => setName(e.target.value)}
       />
-      <button>setName</button>
+      <br />
+      <button onClick={handleChange}>setName</button>
     </div>
   );
 }
