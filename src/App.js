@@ -5,6 +5,8 @@ import Input from "./useState/Input";
 
 import ReducerComponent from "./useReducer/ReducerComponent";
 import EffectComponent from "./useEffect/EffectComponent";
+import UseRefComponent from "./useRef/UseRefComponent";
+
 import Style from "./App.module.css";
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
 
       <div className={Style.useEffect}>
         <EffectComponent />
+      </div>
+
+      <div className={Style.useRef}>
+        <UseRefComponent />
       </div>
     </div>
   );
