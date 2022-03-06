@@ -6,7 +6,7 @@ import Input from "./useState/Input";
 import ReducerComponent from "./useReducer/ReducerComponent";
 import EffectComponent from "./useEffect/EffectComponent";
 import UseRefComponent from "./useRef/UseRefComponent";
-
+import LayoutEffectComponent from "./useLayoutEffect/LayoutEffectComponent";
 import Style from "./App.module.css";
 
 function App() {
@@ -29,6 +29,10 @@ function App() {
 
       <div className={Style.useRef}>
         <UseRefComponent />
+      </div>
+
+      <div className={Style.useLayoutEffect}>
+        <LayoutEffectComponent />
       </div>
     </div>
   );

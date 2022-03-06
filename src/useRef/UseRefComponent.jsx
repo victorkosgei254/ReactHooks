@@ -6,11 +6,11 @@ export default function UseRefComponent() {
   const clickMe = () => {
     if (inputRef.current.value == "") {
       inputRef.current.focus();
-    } else console.log(inputRef.current.value);
+    } else alert("Your Input: " + inputRef.current.value);
   };
   return (
     <div>
-      <h3>Tutorial 4, use Ref</h3>
+      <h3>Tutorial Four, use Ref</h3>
       <p>
         Prints the value of input text field when filled, <b>moves focus</b> to
         the input text when no name is filled.

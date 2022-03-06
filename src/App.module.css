@@ -72,6 +72,14 @@
   height: fit-content;
 }
 
+.useLayoutEffect {
+  border: 1px solid rgb(137, 16, 235);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(8, 224, 152);
+  height: fit-content;
+}
+
 .useRef button {
   border: 1px solid rgb(141, 11, 201);
   border-radius: 5px;
@@ -104,6 +112,10 @@
     width: 30vmax;
   }
   .useEffect {
+    height: 80vmin;
+    width: 30vmax;
+  }
+  .useLayoutEffect {
     height: 80vmin;
     width: 30vmax;
   }
