@@ -4,7 +4,7 @@ import Counter from "./useState/Counter";
 import Input from "./useState/Input";
 
 import ReducerComponent from "./useReducer/ReducerComponent";
-
+import EffectComponent from "./useEffect/EffectComponent";
 import Style from "./App.module.css";
 
 function App() {
@@ -19,6 +19,10 @@ function App() {
       <div className={Style.useReducer}>
         <h3>Tutorial Two, use Reducer</h3>
         <ReducerComponent />
+      </div>
+
+      <div className={Style.useEffect}>
+        <EffectComponent />
       </div>
     </div>
   );

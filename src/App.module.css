@@ -3,13 +3,15 @@
   flex-direction: column;
   text-align: center;
   background-color: rgb(218, 221, 63);
+  flex-wrap: wrap;
 }
 
 .useState {
   border: 1px solid rebeccapurple;
   border-radius: 10px;
   background-color: darkseagreen;
-  height: 50vmax;
+  height: fit-content;
+  margin: 10px;
 }
 
 .useState h3 {
@@ -28,15 +30,59 @@
   border: 1px solid hotpink;
   border-radius: 10px;
   background-color: bisque;
-  padding: 10px;
-  margin-top: 10px;
+  margin: 10px;
 }
 .useReducer h3 {
   color: darkorange;
 }
 
+.useReducer button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 32px;
+  background-color: rgb(100, 17, 233);
+  margin: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.useEffect {
+  border: 1px solid crimson;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: hotpink;
+}
+.useEffect h3 {
+  color: rgb(65, 42, 165);
+}
+
+.useEffect button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 32px;
+  background-color: rgb(215, 17, 233);
+  margin-top: 10px;
+}
 @media (min-width: 640px) {
+  .app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
   .useState {
+    height: 80vmin;
+    width: 30vmax;
+  }
+
+  .useEffect .useReducer .useState {
+    margin-top: 10px;
+  }
+  .useReducer {
+    height: 80vmin;
+    width: 30vmax;
+  }
+  .useEffect {
     height: 80vmin;
     width: 30vmax;
   }
