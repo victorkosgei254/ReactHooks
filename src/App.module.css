@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(218, 221, 63);
+}
+
+.useState {
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  background-color: darkseagreen;
+  height: 50vmax;
+}
+
+.useState h3 {
+  color: rgb(84, 30, 210);
+}
+
+.useState button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 32px;
+  background-color: rgb(67, 233, 17);
+  margin-top: 10px;
+}
+
+.useReducer {
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  background-color: bisque;
+  padding: 10px;
+  margin-top: 10px;
+}
+.useReducer h3 {
+  color: darkorange;
+}
+
+@media (min-width: 640px) {
+  .useState {
+    height: 80vmin;
+    width: 30vmax;
+  }
+}
