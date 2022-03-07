@@ -89,6 +89,14 @@
   font-weight: bold;
   color: rgb(201, 11, 90);
 }
+.imperativeHandle {
+  border: 1px solid rgb(235, 133, 16);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(235, 133, 16);
+  height: fit-content;
+}
+
 @media (min-width: 640px) {
   .app {
     display: flex;
@@ -116,6 +124,11 @@
     width: 30vmax;
   }
   .useLayoutEffect {
+    height: 80vmin;
+    width: 30vmax;
+  }
+
+  .imperativeHandle {
     height: 80vmin;
     width: 30vmax;
   }

@@ -7,6 +7,8 @@ import ReducerComponent from "./useReducer/ReducerComponent";
 import EffectComponent from "./useEffect/EffectComponent";
 import UseRefComponent from "./useRef/UseRefComponent";
 import LayoutEffectComponent from "./useLayoutEffect/LayoutEffectComponent";
+import ImperativeHandleComponent from "./imeprativeHandle/ImperativeHandleComponent";
+
 import Style from "./App.module.css";
 
 function App() {
@@ -33,6 +35,10 @@ function App() {
 
       <div className={Style.useLayoutEffect}>
         <LayoutEffectComponent />
+      </div>
+
+      <div className={Style.imperativeHandle}>
+        <ImperativeHandleComponent />
       </div>
     </div>
   );
