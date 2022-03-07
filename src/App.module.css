@@ -97,6 +97,14 @@
   height: fit-content;
 }
 
+.useContext {
+  border: 1px solid rgb(235, 16, 16);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(153, 118, 199);
+  height: fit-content;
+}
+
 @media (min-width: 640px) {
   .app {
     display: flex;
@@ -129,6 +137,10 @@
   }
 
   .imperativeHandle {
+    height: 80vmin;
+    width: 30vmax;
+  }
+  .useContext {
     height: 80vmin;
     width: 30vmax;
   }

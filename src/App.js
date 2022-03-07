@@ -8,7 +8,7 @@ import EffectComponent from "./useEffect/EffectComponent";
 import UseRefComponent from "./useRef/UseRefComponent";
 import LayoutEffectComponent from "./useLayoutEffect/LayoutEffectComponent";
 import ImperativeHandleComponent from "./imeprativeHandle/ImperativeHandleComponent";
-
+import UseContextComponent from "./useContext/UseContextComponent";
 import Style from "./App.module.css";
 
 function App() {
@@ -39,6 +39,10 @@ function App() {
 
       <div className={Style.imperativeHandle}>
         <ImperativeHandleComponent />
+      </div>
+
+      <div className={Style.useContext}>
+        <UseContextComponent />
       </div>
     </div>
   );
