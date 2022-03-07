@@ -105,6 +105,14 @@
   height: fit-content;
 }
 
+.useCallback {
+  border: 1px solid rgb(235, 195, 16);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(96, 235, 16);
+  height: fit-content;
+}
+
 @media (min-width: 640px) {
   .app {
     display: flex;
@@ -141,6 +149,11 @@
     width: 30vmax;
   }
   .useMemo {
+    height: 80vmin;
+    width: 30vmax;
+  }
+
+  .useCallback {
     height: 80vmin;
     width: 30vmax;
   }

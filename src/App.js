@@ -9,7 +9,7 @@ import UseRefComponent from "./useRef/UseRefComponent";
 import LayoutEffectComponent from "./useLayoutEffect/LayoutEffectComponent";
 import ImperativeHandleComponent from "./imeprativeHandle/ImperativeHandleComponent";
 import UseMemoComponent from "./useMemo/UseMemoComponent";
-
+import UseCallbackComponent from "./useCallback/UseCallbackComponent";
 import Style from "./App.module.css";
 
 function App() {
@@ -44,6 +44,9 @@ function App() {
 
       <div className={Style.useMemo}>
         <UseMemoComponent />
+      </div>
+      <div className={Style.useCallback}>
+        <UseCallbackComponent />
       </div>
     </div>
   );
