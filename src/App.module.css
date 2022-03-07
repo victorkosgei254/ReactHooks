@@ -97,6 +97,14 @@
   height: fit-content;
 }
 
+.useMemo {
+  border: 1px solid rgb(199, 16, 235);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(16, 221, 235);
+  height: fit-content;
+}
+
 @media (min-width: 640px) {
   .app {
     display: flex;
@@ -129,6 +137,10 @@
   }
 
   .imperativeHandle {
+    height: 80vmin;
+    width: 30vmax;
+  }
+  .useMemo {
     height: 80vmin;
     width: 30vmax;
   }

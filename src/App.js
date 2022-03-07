@@ -8,6 +8,7 @@ import EffectComponent from "./useEffect/EffectComponent";
 import UseRefComponent from "./useRef/UseRefComponent";
 import LayoutEffectComponent from "./useLayoutEffect/LayoutEffectComponent";
 import ImperativeHandleComponent from "./imeprativeHandle/ImperativeHandleComponent";
+import UseMemoComponent from "./useMemo/UseMemoComponent";
 
 import Style from "./App.module.css";
 
@@ -39,6 +40,10 @@ function App() {
 
       <div className={Style.imperativeHandle}>
         <ImperativeHandleComponent />
+      </div>
+
+      <div className={Style.useMemo}>
+        <UseMemoComponent />
       </div>
     </div>
   );
